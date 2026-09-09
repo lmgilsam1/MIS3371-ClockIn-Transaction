@@ -1,0 +1,13 @@
+User Stories + Acceptance Criteria
+
+Employee(Submit):
+As an Employee, I want to submit a clock-in request and know if my clock-in request has been recorded
+Acceptance: When an employee submits Employee_ID, when the system approves/flags/rejects clock-in request, they are given a Clock-In_ID and the status of the submission.
+
+Employee(Review Status):
+As an Employee, I want to be able to check the status of my clock-in request to know if it was approved, flagged, or rejected.
+Acceptance: Given an existing clock-in request, when the employee views it, they are able to view their unique clock-in ID, status, and reason for a flag/rejection
+
+Manager(Review)
+As a manager, I want to be able to review status of flagged clock-in requests
+Acceptance: Given a flagged or rejected clock-in request, when the manager opens opens the review queue, then they can view Employee_ID, timestamp of clock-in, and the reason for the flag or rejection/
