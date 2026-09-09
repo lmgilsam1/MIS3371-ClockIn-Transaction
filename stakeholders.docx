@@ -1,0 +1,8 @@
+Stakeholders
+
+Employee(Requester): Initiates Request, submits employee ID, status of shift, confirmation of successful/failed clock-in request
+
+Manager(Reviewer): Reviews all flagged shifts(early, late, duplicate), can see decision history, and reason for why employees shift was flagged
+
+HR Admin(Record Owner): Needs accurate clock-in records to support payroll processing and to have a reliable audit trail of hours worked. 
+
