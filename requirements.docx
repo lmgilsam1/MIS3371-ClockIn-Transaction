@@ -1,0 +1,20 @@
+Functional Requirements:
+
+FR-1: The system shall allow an employee to submit one clock-in request
+FR-2: The system shall capture the employee ID and clock-in timestamp
+FR-3: The system shall verify that the employee is currently employed before accepting clock-in request
+FR-4: The system shall validate if employee is not 15 minute early or 15 minutes late to their shift
+FR-5: The system shall validate that the employee does not already have an open clock-in, to prevent duplicate clock-ins. 
+FR-6: The system shall assign a unique request ID and give an initial status. (Accepted/Flagged/Rejected)
+FR-7: The system shall record the reason for any flagged or rejected clock-in
+FR-8: The system shall show the employee the current status of their request
+
+Quality/Nonfunctional Requirements
+
+NFR-1: The clock-in form shall be usable by digital keyboard and include all accessible labels for all input fields
+NFR-2: Required-field feedback shall identify what the employee must correct(Employee ID entered incorrectly)
+NFR-3: The system shall preserve all clock-in status changes and timestamps, including flagged and rejected requests, for review
+NFR-4: The interface shall remain usable on all devices approved by business
+NFR-5: The system shall record the clock-in timestamp using a consistent time source to prevent any discrepancies from device clock settings.
+NFR-5: The project shall use fictional names and employee ID’s to demonstrate data during demos.
+
