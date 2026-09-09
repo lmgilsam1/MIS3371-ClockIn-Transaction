@@ -11,4 +11,4 @@ Scope:
 Submit one clock in request; check if employee is currently employed; check if employee is scheduled for current time and date; reject clock-in if employee is not currently employed or not scheduled;  flag any clock-ins that are too early or too late relative to the scheduled shift; prevent duplicate or overlapping clock-ins; assign a unique request ID, timestamp, and status, to clock-in request; show employee a confirmation; keep record of clock-request ID
 
 Out of Scope:
-Clocking out or calculating total shift/hours worked; payroll calculations; scheduling shifts; PTO or time-off requests; tracking breaks
+Clocking out or calculating total shift/hours worked; payroll calculations; scheduling shifts; PTO or time-off requests; tracking breaks; overtime calculation
