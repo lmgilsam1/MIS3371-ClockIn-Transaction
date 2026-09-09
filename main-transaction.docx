@@ -1,0 +1,7 @@
+Transaction Event:
+
+Trigger: Employee arrived to begin scheduled shift and needs to record their time
+Inputs: Employee ID and clock-in timestamp(auto captured)
+System Action: Matches employee ID to currently employed worker to validate if employee is employed currently or not. Matches Employee ID to shift assigned to that worker. Validates that the employee is not 15 minutes too early or 15 minutes too late to the assigned shift. Checks for an existing open clock-in for that employee to prevent duplicate or overlapping requests
+Outcome: Accept clock-in and assign an ID to clock-in request, flag clock-in request due to violation of business rules(early, late, duplicate), or reject clock-in (not employed or not scheduled)
+Official Record: Clock-in ID, employee ID, timestamp, status, and reason of flag or rejection(If needed)
